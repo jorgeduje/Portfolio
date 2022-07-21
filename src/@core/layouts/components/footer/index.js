@@ -7,7 +7,7 @@ const Footer = () => {
       <span className="float-md-start d-block d-md-inline-block mt-25">
         See profile @:{" "}
         <a
-          href="https://www.linkedin.com/in/jaidervanegas23/"
+          href="https://www.linkedin.com/in/jorge-duje-2212b4219/"
           target="_blank"
           rel="noopener noreferrer"
         >

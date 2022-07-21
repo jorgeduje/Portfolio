@@ -34,8 +34,8 @@ export default function RepoCard({ repo }) {
     <Card sx={{ maxWidth: 300 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "#00cfe8"}} aria-label="recipe">
-            Kz
+          <Avatar sx={{ bgcolor: "#625ac9"}} aria-label="recipe">
+            JD
           </Avatar>
         }
         title={repo?.repo_name}
@@ -55,7 +55,7 @@ export default function RepoCard({ repo }) {
         </Typography>
       </CardContent>
       <CardActions>
-        <a style={{ color: "#00cfe8"}} href={repo?.repo_url} target="_blank" rel="noreferrer">
+        <a style={{ color: "#625ac9"}} href={repo?.repo_url} target="_blank" rel="noreferrer">
           See Repo on GitHub
         </a>
         <ExpandMore

@@ -23,7 +23,7 @@ import {
 } from "reactstrap"
 
 // ** Default Avatar Image
-import avatar from "@src/assets/images/profile-pic.jpg"
+const avatar = "https://avatars.githubusercontent.com/u/88196170?v=4"
 
 const UserDropdown = () => {
   const [dropDownList, setDropDownList] = useState([])

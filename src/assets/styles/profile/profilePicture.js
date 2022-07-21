@@ -4,7 +4,8 @@ const styles = {
         height: "100%"
     },
     cover: {
-        height: "300px"
+        height: "300px",
+        objectFit: "cover"
     },
     followersinfo: {
       marginTop: "5px",

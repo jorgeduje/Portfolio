@@ -3,7 +3,7 @@
 //Template config options
 const themeConfig = {
   app: {
-    appName: "Kike Vanegas",
+    appName: "Jorge Duje",
     appLogoImage: require("@src/assets/images/logo/logo.png").default
   },
   layout: {

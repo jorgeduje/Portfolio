@@ -30,24 +30,23 @@ const ProfileHeader = ({ gitHubData, imgCover, isOpen, langObj, component, handl
           <Collapse isOpen={isOpen} navbar>
             <div className='profile-tabs d-flex justify-content-between flex-wrap mt-1 mt-md-0'>
               <Nav className='mb-0' pills>
-                <Button color={`${component === "repo" ? "info" : ""}`} onClick = {() => handlerActive("repo")}>
+                <Button color={`${component === "repo" ? "primary" : ""}`} onClick = {() => handlerActive("repo")}>
                   <span className={classes.hidden} style={ColorShifter(skin)}>{langObj?.repos}: {gitHubData.public_repos}</span>
                   <FileText className='d-block d-md-none' size={14} />
                 </Button>
-                <Button color={`${component === "user" ? "info" : ""}`} onClick = {() => handlerActive("user")}>
+                <Button color={`${component === "user" ? "primary" : ""}`} onClick = {() => handlerActive("user")}>
                   <span className={classes.hidden} style={ColorShifter(skin)}>{langObj?.friends}: {gitHubData.followers}</span>
                   <Users className='d-block d-md-none' size={14} />
                 </Button>
-                <Button color={`${component === "contribute" ? "info" : ""}`} onClick = {() => handlerActive("contribute")}>
+                <Button color={`${component === "contribute" ? "primary" : ""}`} onClick = {() => handlerActive("contribute")}>
                   <span className={classes.hidden} style={ColorShifter(skin)}>{langObj?.contributions}</span>
                   <Users className='d-block d-md-none' size={14} />
                 </Button>
                 <button style={{ backgroundColor: "transparent", border: "none", color: "white"}}>
                   <a className={classes.hidden} href={gitHubData?.html_url} target="_blank" rel="nonreferrer" style={{color: `${skin === "dark" ? "white" : "#283046"}`}}>{langObj?.profile}</a>
                 </button>
-                <FlagButton arr={arrOfBtn}/>
               </Nav>
-              <Button color="info" onClick = {() => handlerActive("home")}>
+              <Button color="primary" onClick = {() => handlerActive("home")}>
                 <Home className='d-block d-md-none' size={14} />
                 <span className='fw-bold d-none d-md-block'>{langObj?.base}</span>
               </Button>
