@@ -7,13 +7,14 @@ const Li = styled.li`
     align-items: center;
     text-align: center;
     list-style: none;
+    color: #625ac9 !important
 
 `
 const ListItem = ({ name, Icon}) => {
   return (
     <Li>
         <Icon />
-        <span style={{ fontSize: "10px"}}>{name}</span>
+        <span style={{ fontSize: "12px", fontWeight: "bold"}}>{name}</span>
     </Li>
   )
 }

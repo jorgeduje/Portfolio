@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from "../../Pages/profile/index"
+import Profile from "../../components/Pages/profile"
 const GitHubPresentation = (props) => {
   return (
     <div>

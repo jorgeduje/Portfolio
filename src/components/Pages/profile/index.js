@@ -8,8 +8,8 @@ import { Row, Col} from 'reactstrap'
 
 // ** Demo Components
 import ProfileHeader from './ProfileHeader'
-import RepoCard from '../../@core/components/repoCard/RepoCard'
-import Paginate from '../../@core/components/Pagination/Pagination'
+import RepoCard from '../../../@core/components/repoCard/RepoCard'
+import Paginate from '../../../@core/components/Pagination/Pagination'
 
 
 // ** Styles

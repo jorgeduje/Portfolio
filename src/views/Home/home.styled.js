@@ -67,7 +67,7 @@ export const HomeTextContainer = styled.div`
 `
 
 export const Homename = styled.h3`
-    color: #B91646 !important;
+    color: #625ac9 !important;
     cursor:pointer; 
     margin: 0;
     font-size: 5rem;
@@ -147,13 +147,20 @@ export const ListContainer = styled.ul`
     justify-content: space-evenly;
     gap: 50px;
     font-family: 'Fira Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     text-align: center;
     align-itens: center;
     overflow-y: hidden;
     position: absolute;
-    top: 15%;
+    top: 16%;
     animation: ${liAnimation} linear 22s infinite;
+    background: rgba(255, 255, 255, 0.47);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.1px);
+    -webkit-backdrop-filter: blur(0.1px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    padding: 10px;
 `
 
 export const BodyWrapper = styled.div`
