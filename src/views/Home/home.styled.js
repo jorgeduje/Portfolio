@@ -29,12 +29,13 @@ export const Container = styled.div`
     background-color: #060707;
     background-image: linear-gradient(to bottom right, rgba(82, 79, 79, 0.795), rgb(0, 0, 0));
     @media screen and (max-width: 650px){
-        background-image: linear-gradient(to bottom right, rgba(82, 79, 79, 0.678), rgba(0, 0, 0, 0.637)), url("https://kike-vanegas-dev.vercel.app/static/media/self.be9a4dc0.jpg");
+        background-image: linear-gradient(to bottom right, rgba(82, 79, 79, 0.678), rgba(0, 0, 0, 0.637)), url("https://avatars.githubusercontent.com/u/88196170?v=4");
         background-size: cover;
         background-position: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
 `
 
@@ -63,6 +64,9 @@ export const HomeTextContainer = styled.div`
     font-size: 3rem;
     @media screen and (max-width: 650px){
         background-image: none;
+        font-family: cursive;
+    width: 80%;
+
     }
 `
 
@@ -71,8 +75,9 @@ export const Homename = styled.h3`
     cursor:pointer; 
     margin: 0;
     font-size: 5rem;
-    @media screen and (max-width: 320px){
-        font-size: 4rem;
+    @media screen and (max-width: 520px){
+        padding-top: 80px;
+        font-size: 3rem;
     }
 `
 
@@ -109,7 +114,7 @@ export const WelcomeContainer = styled.section`
 `
 
 export const Welcome = styled.h1`
-    color: #433F55;
+    color: #fff;
     font-family: 'Fira Mono', monospace;
     overflow: hidden; 
     border-right: .15em solid #CE2D4F; 
@@ -161,6 +166,11 @@ export const ListContainer = styled.ul`
     -webkit-backdrop-filter: blur(0.1px);
     border: 1px solid rgba(255, 255, 255, 0.32);
     padding: 10px;
+    @media screen and (max-width: 425px){
+        background: none;
+        border: none;
+        
+    }
 `
 
 export const BodyWrapper = styled.div`
