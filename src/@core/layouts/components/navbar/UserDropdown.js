@@ -35,10 +35,10 @@ const UserDropdown = () => {
       {element: GitHub, name: "GitHub"},
       {element: MessageCircle, name: "WhatsApp"},
       {element: Twitter, name: "Twitter"},
-      {element: Facebook, name: "Facebook"},
-      {element: Instagram, name: "Instagram"},
-      {element: Youtube, name: "YouTube"},
-      {element: Pause, name: "My Playlist"}
+      // {element: Facebook, name: "Facebook"},
+      {element: Instagram, name: "Instagram"}
+      // {element: Youtube, name: "YouTube"},
+      // {element: Pause, name: "My Playlist"}
     ]
     const arr = []
     if (social?.length > 0) {
